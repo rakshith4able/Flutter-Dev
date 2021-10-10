@@ -19,6 +19,10 @@ import 'package:flutter/material.dart';
 //To specify all the contents of a folder as an asset we can just specify folderName/
 //To import all of the configured assets we have to click on pub get button present at the top.
 //use the asset image in Image
+
+//To change the app icon drag and drop the image into appicon.co and doenload the assets
+//Replace mipmaps of android folder in android/app/src/main/res  and ios/runner/Assets.xcassets in IOS
+
 void main() {
   runApp(
     MaterialApp(
