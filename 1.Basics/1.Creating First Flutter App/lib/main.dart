@@ -9,6 +9,16 @@ import 'package:flutter/material.dart';
 //Scaffold() widget is provides us with the most common layouts in the basic material design, like an appBar
 //single quotes are preferred to use
 //To wrap widget within another widget we can plcae cursor on the widget to be wrapped and press alt + enter
+
+//To add images stored as an asset in our project
+//Create folder named images in project directory
+//drag and drop the diamond image into the folder
+//But still it is not ready to use Because we have to configure in the configuration file pubspec.yaml
+//pubspec.yaml contains many comments with #
+//We have to take care of indentation. each indent is of 2 spaces and is considered child of the above section
+//To specify all the contents of a folder as an asset we can just specify folderName/
+//To import all of the configured assets we have to click on pub get button present at the top.
+//use the asset image in Image
 void main() {
   runApp(
     MaterialApp(
@@ -20,8 +30,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://images.unsplash.com/photo-1633603063175-e9ab2820ddbb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1112&q=80'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
