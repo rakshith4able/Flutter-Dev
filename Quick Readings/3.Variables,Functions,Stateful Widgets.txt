@@ -1,0 +1,24 @@
+//When we insert any of the dice image it overflows becoz of its large size
+//We can set width of the image bt it will be hardcoded, so not preferred
+//We use Expanded class which expands to fill available space on a row or column
+
+//actions can be included to dice images by enclosing them within TextButton
+//print() is used to print message in console
+
+//variables can be declared using var keyword
+//We can use variables inside a string by using $variable_name within quotes
+//If we want changes to the variable to be updated in the UI we have to include the variabble inside the build method
+
+//Dart is statically typed language -
+//Because We cannot assign a different type value to variable assigned with different type of value before using var
+//We can create a variable that doesnt have a fixed data type by not initializing any value while creating using var or using dynamic keyword
+//Dart Data Type-
+//Primitive Data Types -> String , int, double,bool
+//Use dartpad to work with dart programming
+
+//Difference B/w Stateless and Stateful Widgets
+//If the state of the widget doesnt change we use stateless Widget
+//If the state of the widget is expected to change we have to use stateful widgets
+//The shortcut to create stateful widget is stful
+//stateful widgets have 2 parts 1st class is similar to stateless widgets another class is to change the state
+//We have to place the changes inside the setState() to rebuild UI on hot reload

@@ -1,0 +1,7 @@
+//assets like music or other files can be added to pubspec.yaml as assets: followed by folderName/
+//We can make use of flutter packages in our app
+//Flutter packages are open source libraries of code that other people have created
+//Which we can incorporate in our project with minimal efforts
+//We can explore and get packages from https://pub.dartlang.org/flutter
+//To use the packages we add the dependencies in pubspec.yaml file from installing section
+
