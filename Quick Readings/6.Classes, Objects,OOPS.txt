@@ -1,0 +1,14 @@
+//Classes and Objects
+//Classes are blue print and objects are working model
+//Classes contains properties and methods
+//Classes are used because OOP is possible
+//4 pillars of OOP- Abstraction,Encapsulation,Inheritance,Polymorphism
+//1)Data abstraction refers to Splitting huge code into small modules(classes) which individually performs specific tasks.
+//2)Encapsulation is nothing but building wall between the abstracted classes.
+// To make a property of class private we add _ at the beginning of the property name in class
+//3)Inheritance- a class is able to inherit properties and methods from parent
+// We use extends keyword to achieve inheritance
+//4)Polymorphism- When we inherit methods from parent andwe want the same method with different implementation
+// in child class we have to override it @override
+//If we want to carry out parent version of method we can use super.method() in child implementation using @override.
+void main() => runApp(Quizzler());

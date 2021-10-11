@@ -1,0 +1,6 @@
+//List<Type> ListName;
+//Index starts from 0
+// .indexOf(item) returns the index of the item present in the list else -1
+// .add(item) is used to add item into the list. adds to the end
+// .insert(index,item) inserts at the specified index
+
