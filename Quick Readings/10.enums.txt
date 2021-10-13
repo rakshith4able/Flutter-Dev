@@ -1,0 +1,9 @@
+
+//enums
+//enums stands for enumeration- The action of establishing the no. of something
+//boolean allows us to use 2 states while enums allows multiple states/options
+//syntax:
+// enum EnumName{typeA,typeB.typeC}
+//using enum:
+// EnumName.typeA
+//We cant create enum inside class so we have to create enum outside classes

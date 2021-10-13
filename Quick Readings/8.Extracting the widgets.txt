@@ -1,0 +1,5 @@
+
+//If we are using same widget again and again we can extract that widget and call the object of the Widget class
+//This can be done by going to Flutter Outline and select the widget and extract widget by right click menu
+
+//When our widgets are moving around in a widget tree we use Key to keep track of its state

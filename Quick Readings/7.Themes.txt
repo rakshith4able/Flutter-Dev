@@ -1,0 +1,7 @@
+
+//Flutter Themes
+//Its simply a way to define our custom color palette,our custom styling for the look and feel of our app
+//We can create our own app theme. To do this we have to give ThemeData widget to our MaterialApp
+//Inside ThemeData we can set primaryColor,accentColor and so many thing
+//copyWith() with ThemeData is used to specify the changes in styles we need from default theme chosen
+//We can include the custom theme to the widgets by enclosing them by Theme widget and specifying ThemeData

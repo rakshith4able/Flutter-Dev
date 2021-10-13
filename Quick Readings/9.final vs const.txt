@@ -1,0 +1,7 @@
+
+//final vs const
+//Instance Variable=Field=Property
+//Immutability- Unchangable ->Stateless widgets are immutable. If we want to update it we have to create new one
+//const and final both are immutable
+//final variable can only be set once
+//const variable is compile time constant- Cant be set while running

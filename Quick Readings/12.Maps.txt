@@ -1,0 +1,10 @@
+
+//Maps
+//They are like list but they are unordered. We will have key value pairs and key will be mapped with value
+//{} is used to represent map
+//Eg:{'Amy':1,'Jackson':2}
+// Creating Maps-
+// Map<KeyType,ValueType> mapName{
+//   key:value
+// }
+//Using map- mapName[key]

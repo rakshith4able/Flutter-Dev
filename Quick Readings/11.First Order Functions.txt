@@ -1,0 +1,8 @@
+//Functions as First Order Objects
+//Storing function in a variable
+//Function Add=(int a,int b){return a+b}
+//Functions can be sent as parameter to the constructors or other functions
+
+//We can see flutter soure code of widgets by ctrl+ click on the component name in code
+
+//Routes and Navigation- Refer Documentation
